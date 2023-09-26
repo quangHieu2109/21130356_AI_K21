@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author dmx
+ *
+ */
+module ThucHanh {
+}

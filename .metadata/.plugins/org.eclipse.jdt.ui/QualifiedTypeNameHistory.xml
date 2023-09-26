@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="chapter2.agent_AB.Action"/>
+    <fullyQualifiedTypeName name="agent_AB.NoOpAction"/>
+    <fullyQualifiedTypeName name="agent_AB.DynamicAction"/>
+    <fullyQualifiedTypeName name="agent_AB.AgentProgram"/>
+    <fullyQualifiedTypeName name="agent_AB.Percept"/>
+    <fullyQualifiedTypeName name="agent_AB.Environment"/>
+    <fullyQualifiedTypeName name="agent_AB.Environment.LocationState"/>
+    <fullyQualifiedTypeName name="agent_AB.EnvironmentState"/>
+    <fullyQualifiedTypeName name="agent_ABCD.Environment.LocationState"/>
+    <fullyQualifiedTypeName name="agent_ABCD.Environment"/>
+</qualifiedTypeNameHistroy>
