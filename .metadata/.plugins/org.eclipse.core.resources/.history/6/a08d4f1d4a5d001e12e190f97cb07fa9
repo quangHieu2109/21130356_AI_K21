@@ -1,0 +1,52 @@
+package agent_ABCD;
+
+import java.util.*;
+
+public class ArrayTransformation {
+    public static String transformArray(int[] a, int[] b, int k) {
+        int[] countB = new int[10];
+
+        for (int num : b) {
+            boolean found = false;
+            for (int i = 0; i < a.length; i++) {
+                if (a[i] == num) {
+                    countB[num]--;
+                    a[i]++;
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                return "no";
+            }
+        }
+
+        for (int count : countB) {
+            if (count < 0) {
+                return "no";
+            } else if (count > 0) {
+                int minCount = Math.min(count, k);
+                for (int i = 0; i < minCount; i++) {
+                    for (int j = 0; j < a.length; j++) {
+                        if (a[j] == 0) {
+                            a[j]++;
+                            count--;
+                            k--;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        return "yes";
+    }
+
+    public static void main(String[] args) {
+        int[] a = new int[]{0, 0};
+        int[] b = new int[]{5,3};
+        int k = 3;
+        String result = transformArray(a, b, k);
+        System.out.println(result);  // Output: yes
+    }
+}

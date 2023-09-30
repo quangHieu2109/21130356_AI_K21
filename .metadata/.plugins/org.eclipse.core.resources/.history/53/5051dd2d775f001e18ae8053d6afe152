@@ -26,7 +26,7 @@ public class Agent {
 	public void otherAction() {
 		point -= 10;
 	}
-	public int getPoint() {
+	public int getCoin() {
 		return this.point;
 	}
 }

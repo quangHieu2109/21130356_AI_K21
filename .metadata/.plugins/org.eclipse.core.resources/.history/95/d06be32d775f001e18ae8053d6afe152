@@ -73,7 +73,7 @@ public class Environment {
 		Action anAction = agent.execute(getPerceptSeenBy());
 		EnvironmentState es = executeAction(anAction);
 
-		System.out.println("Agent Loc.: " + agentLocation + "\tAction: " + anAction +"\tPoint: " + agent.getPoint());
+		System.out.println("Agent Loc.: " + agentLocation + "\tAction: " + anAction +"\tPoint: " + agent.getCoin());
 
 		if ((es.getLocationState(LOCATION_A) == LocationState.CLEAN)
 				&& (es.getLocationState(LOCATION_B) == LocationState.CLEAN))
