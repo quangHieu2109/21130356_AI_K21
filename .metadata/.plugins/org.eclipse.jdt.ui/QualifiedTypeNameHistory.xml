@@ -10,4 +10,13 @@
     <fullyQualifiedTypeName name="agent_AB.EnvironmentState"/>
     <fullyQualifiedTypeName name="agent_ABCD.Environment.LocationState"/>
     <fullyQualifiedTypeName name="agent_ABCD.Environment"/>
+    <fullyQualifiedTypeName name="k21.ISearchAlgo"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="k21.Edge"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="k21.Node"/>
+    <fullyQualifiedTypeName name="k21.SearchAI"/>
+    <fullyQualifiedTypeName name="k21.NodeUtils"/>
 </qualifiedTypeNameHistroy>
