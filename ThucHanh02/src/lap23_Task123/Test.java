@@ -31,18 +31,18 @@ public class Test {
 		nodeF.addEdge(nodeG, 1);
 		
 
-//		BreadthFirstSearchAlgoTree bjfTree = new BreadthFirstSearchAlgoTree();
-//		DepthFirstSearchAlgoTree dfsTree = new DepthFirstSearchAlgoTree();
-//		BreadthFirstSearchAlgo bfsGraph = new BreadthFirstSearchAlgo();
-//		DepthFirstSearchAlgo dfsGraph = new DepthFirstSearchAlgo();
-//		System.out.print("BFS Graph: ");
-//		NodeUtils.print(NodeUtils.printPath(bfsGraph.execute(nodeS, "G")));
-//		System.out.print("BFS Tree: ");
-//		NodeUtils.print(NodeUtils.printPath(bjfTree.execute(nodeS, "G")));
-//		System.out.print("DFS Graph: ");
-//		NodeUtils.print(NodeUtils.printPath(dfsGraph.execute(nodeS, "G")));
-//		System.out.print("DFS Tree: ");
-//		NodeUtils.print(NodeUtils.printPath(dfsTree.execute(nodeS, "G")));
+		BreadthFirstSearchAlgoTree bjfTree = new BreadthFirstSearchAlgoTree();
+		DepthFirstSearchAlgoTree dfsTree = new DepthFirstSearchAlgoTree();
+		BreadthFirstSearchAlgo bfsGraph = new BreadthFirstSearchAlgo();
+		DepthFirstSearchAlgo dfsGraph = new DepthFirstSearchAlgo();
+		System.out.print("BFS Graph: ");
+		NodeUtils.print(NodeUtils.printPath(bfsGraph.execute(nodeS, "G")));
+		System.out.print("BFS Tree: ");
+		NodeUtils.print(NodeUtils.printPath(bjfTree.execute(nodeS, "G")));
+		System.out.print("DFS Graph: ");
+		NodeUtils.print(NodeUtils.printPath(dfsGraph.execute(nodeS, "G")));
+		System.out.print("DFS Tree: ");
+		NodeUtils.print(NodeUtils.printPath(dfsTree.execute(nodeS, "G")));
 		
 //		System.out.println("\n");
 //		

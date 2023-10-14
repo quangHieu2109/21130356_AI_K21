@@ -1,6 +1,7 @@
-package k21;
+package lap23_Task456;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Node implements Comparable<Node> {
@@ -54,6 +55,7 @@ public class Node implements Comparable<Node> {
 	public void addEdge(Node that, double cost) {
 		Edge edge = new Edge(this, that, cost);
 		this.children.add(edge);
+		Collections.sort(this.children);
 	}
 
 	// an edge is generated using this node and "that" with the given cost

@@ -1,4 +1,4 @@
-package k21;
+package lap23_Task456;
 
 
 public class Test {
@@ -32,10 +32,11 @@ public class Test {
 		
 		
 		UniformCostSearchAlgo us = new UniformCostSearchAlgo();
+		DepthLimitedSearch dl = new DepthLimitedSearch();
 //		NodeUtils.print(NodeUtils.printPath(us.execute(nodeS, "G")));
 		//them sau
-				nodeG.addEdge(nodeH,1);
-		NodeUtils.print(NodeUtils.printPath(us.execute(nodeS,"A", "H")));
+//				nodeG.addEdge(nodeH,1);
+		NodeUtils.print(NodeUtils.printPath(dl.execute2(nodeS, "G",1)));
 //		us.execute(nodeS, "G");
 	}
 }

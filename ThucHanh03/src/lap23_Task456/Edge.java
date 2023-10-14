@@ -1,4 +1,4 @@
-package k21;
+package lap23_Task456;
 
 public class Edge implements Comparable<Edge>{
 	private Node begin;
@@ -33,6 +33,6 @@ public class Edge implements Comparable<Edge>{
 
 	@Override
 	public int compareTo(Edge o) {
-		return -this.end.getLabel().compareTo(o.getEnd().getLabel());
+		return this.end.getLabel().compareTo(o.getEnd().getLabel());
 	}
 }
