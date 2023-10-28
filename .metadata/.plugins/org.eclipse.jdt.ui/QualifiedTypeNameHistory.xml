@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="k21.DepthLimitedSearch"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="k21.Node"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
