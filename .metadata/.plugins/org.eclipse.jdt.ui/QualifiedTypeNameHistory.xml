@@ -29,4 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="k21.Node"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="student.IPuzzleAlgo"/>
+    <fullyQualifiedTypeName name="student.AStarSearch"/>
 </qualifiedTypeNameHistroy>
