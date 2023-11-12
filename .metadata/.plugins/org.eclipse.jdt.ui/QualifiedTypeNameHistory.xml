@@ -31,4 +31,8 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="student.IPuzzleAlgo"/>
     <fullyQualifiedTypeName name="student.AStarSearch"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="student.Node"/>
 </qualifiedTypeNameHistroy>

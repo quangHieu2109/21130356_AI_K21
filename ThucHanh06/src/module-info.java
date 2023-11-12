@@ -5,6 +5,5 @@
  * @author dmx
  *
  */
-module Test {
-	requires java.desktop;
+module ThucHanh06 {
 }
